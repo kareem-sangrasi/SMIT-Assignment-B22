@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap");
+
+h1 {
+  font-family: "Rouge Script", cursive;
+}
+.para {
+  font-family: "Pinyon Script", cursive;
+}
+.new {
+  font-family: "Mountains of Christmas", serif;
+}
+h1::selection {
+  background-color: gray;
+  color: rgb(235, 246, 28);
+}
+.para::selection {
+  background-color: gray;
+  color: rgb(235, 246, 28);
+}
+
+.new::selection {
+  background-color: gray;
+  color: rgb(235, 246, 28);
+}
