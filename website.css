@@ -25,7 +25,7 @@ nav a {
   font-size: 18px;
 }
 nav a:hover {
-  color: #0b4d0f;
+  color: red;
 }
 header button {
   border: none;
@@ -105,8 +105,6 @@ header button:hover {
   color: #000000;
 }
 
-.btn img {
-}
 .section > .Box1 {
   display: flex;
   border: none;
@@ -180,6 +178,8 @@ header button:hover {
   font-family: sans-serif;
   width: 80%;
   text-align: center;
+  padding: 13%;
+  padding-right: px;
 
   margin-top: 80px;
 }
@@ -190,8 +190,10 @@ span {
   color: #a7a3a3;
   font-family: sans-serif;
   margin-top: 15%;
-  margin-left: -60%;
+  margin-left: -55%;
   width: 700px;
+  padding: 12%;
+  padding-left: 10px;
   padding-right: 20%;
 }
 
@@ -431,4 +433,72 @@ h1 {
   margin-left: 15%;
   height: 20vh;
   margin-top: 10px;
+}
+.footer {
+  display: flex;
+
+  height: 35vh;
+  margin-top: 20vh;
+  margin-left: 0;
+  background-color: #fdfdfd;
+}
+.footer:hover {
+  background-color: #f1f1f1;
+}
+.footer > img {
+  margin: 7%;
+}
+h2 {
+  margin-top: 2%;
+  margin-left: 5%;
+}
+.last {
+  margin-top: 5%;
+  margin-left: -13%;
+  line-height: 30px;
+  color: #8b8ba5;
+}
+
+h2 {
+  margin-top: 2%;
+  margin-left: 7%;
+}
+.last1 {
+  margin-top: 5%;
+  margin-left: -13%;
+  line-height: 30px;
+  color: #8b8ba5;
+}
+
+.button3 {
+  border: none;
+  height: 100px;
+  width: 70%;
+  margin-top: 59vh;
+  margin-left: 0%;
+  margin-right: -55%;
+}
+.buttons3 {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.btn1 {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+}
+.btn1:hover {
+  background-color: #c6c6c6;
+  color: #000000;
 }
